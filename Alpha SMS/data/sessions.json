@@ -1,0 +1,50 @@
+{
+  "test_owner_token": {
+    "id": 1,
+    "username": "Kamran_Bhatti",
+    "role": "Owner",
+    "token": "test_owner_token",
+    "source": "users",
+    "created": 1791618452876,
+    "lastActive": 1791618452876
+  },
+  "test_manager_token": {
+    "id": 3,
+    "username": "alpha",
+    "role": "Manager",
+    "token": "test_manager_token",
+    "source": "users",
+    "created": 1791618452876,
+    "lastActive": 1791618452876
+  },
+  "test_agent_token": {
+    "id": 1,
+    "username": "Agent_Alpha",
+    "role": "Agent",
+    "token": "test_agent_token",
+    "source": "agents",
+    "manager_id": 3,
+    "created": 1791618452876,
+    "lastActive": 1791618452876
+  },
+  "test_client_token": {
+    "id": 1,
+    "username": "TestClient",
+    "role": "Client",
+    "token": "test_client_token",
+    "source": "clients",
+    "agent_id": 1,
+    "manager_id": 3,
+    "created": 1791618452876,
+    "lastActive": 1791618452876
+  },
+  "test_testpanel_token": {
+    "id": 1,
+    "username": "testuser",
+    "role": "TestPanel",
+    "token": "test_testpanel_token",
+    "source": "testpanel_credentials",
+    "created": 1791618452876,
+    "lastActive": 1791618452876
+  }
+}

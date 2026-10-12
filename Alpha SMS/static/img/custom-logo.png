@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 240" width="100%" height="100%">
+  <defs>
+    <!-- Background / Soft Tech Ambient Glow -->
+    <radialGradient id="ambGlow" cx="30%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Main Cyan to Royal Blue Gradient -->
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="35%" stop-color="#0284c7"/>
+      <stop offset="75%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <!-- Dynamic Swoosh Gradient -->
+    <linearGradient id="swooshGrad" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#1e40af" stop-opacity="0.8"/>
+      <stop offset="30%" stop-color="#0284c7"/>
+      <stop offset="70%" stop-color="#00d2ff"/>
+      <stop offset="100%" stop-color="#e0f2fe"/>
+    </linearGradient>
+
+    <!-- Light Star Sparkle Gradient -->
+    <radialGradient id="starGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="subtleShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0284c7" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Ambient light -->
+  <circle cx="130" cy="110" r="100" fill="url(#ambGlow)"/>
+
+  <!-- ==================== ICON: STYLIZED 'A' WITH SWOOSH ==================== -->
+  <g id="logoIcon" filter="url(#subtleShadow)">
+    <!-- Back of the Swoosh (behind A) -->
+    <path d="M 45,155 C 60,185 105,185 155,160 C 180,148 200,130 215,110 C 205,116 185,130 160,140 C 115,158 75,162 55,145 Z" 
+          fill="url(#swooshGrad)" opacity="0.85"/>
+
+    <!-- Left Leg of Stylized 'A' -->
+    <path d="M 125,28 L 78,165 L 102,165 L 133,68 Z" fill="url(#blueGrad)"/>
+
+    <!-- Right Leg of Stylized 'A' (sweeping aerodynamic curve) -->
+    <path d="M 124,28 L 133,68 C 145,105 165,142 195,165 L 170,165 C 148,145 135,115 125,75 Z" fill="url(#blueGrad)"/>
+
+    <!-- Apex Sharp Cap -->
+    <polygon points="125,24 135,52 115,52" fill="#00e5ff"/>
+
+    <!-- Front Dynamic Orbital Swoosh cutting across and shooting to top-right -->
+    <path d="M 40,145 C 75,120 120,118 165,112 C 195,108 225,95 242,75 C 235,84 210,100 175,108 C 130,118 85,125 50,146 Z" 
+          fill="url(#swooshGrad)"/>
+    <path d="M 160,112 C 190,105 220,90 245,68 C 230,82 205,98 170,108 Z" fill="#ffffff" opacity="0.9"/>
+
+    <!-- Sparkle Stars on the Swoosh Trail -->
+    <!-- Large Star Top-Right -->
+    <g transform="translate(245, 68)">
+      <circle cx="0" cy="0" r="10" fill="url(#starGlow)"/>
+      <path d="M 0,-14 Q 0,0 14,0 Q 0,0 0,14 Q 0,0 -14,0 Q 0,0 0,-14 Z" fill="#ffffff"/>
+      <circle cx="0" cy="0" r="2.5" fill="#38bdf8"/>
+    </g>
+
+    <!-- Medium Star Mid-Right -->
+    <g transform="translate(205, 52) scale(0.65)">
+      <path d="M 0,-12 Q 0,0 12,0 Q 0,0 0,12 Q 0,0 -12,0 Q 0,0 0,-12 Z" fill="#ffffff"/>
+      <circle cx="0" cy="0" r="2" fill="#38bdf8"/>
+    </g>
+
+    <!-- Small Star Upper-Left -->
+    <g transform="translate(85, 48) scale(0.55)">
+      <path d="M 0,-12 Q 0,0 12,0 Q 0,0 0,12 Q 0,0 -12,0 Q 0,0 0,-12 Z" fill="#00e5ff"/>
+    </g>
+
+    <!-- Tiny Star Far-Left -->
+    <g transform="translate(48, 125) scale(0.4)">
+      <path d="M 0,-12 Q 0,0 12,0 Q 0,0 0,12 Q 0,0 -12,0 Q 0,0 0,-12 Z" fill="#ffffff"/>
+    </g>
+  </g>
+
+  <!-- ==================== TYPOGRAPHY: AlphaSMS ==================== -->
+  <g id="logoText" transform="translate(265, 142)">
+    <!-- 'Alpha' in Dark Navy Modern Geometric Font -->
+    <text x="0" y="0" 
+          font-family="'Inter', 'Montserrat', -apple-system, sans-serif" 
+          font-size="68" 
+          font-weight="900" 
+          letter-spacing="-1.5" 
+          fill="#0c182c">Alpha</text>
+
+    <!-- 'SMS' in Italic Tech Cyan-Blue Gradient -->
+    <text x="188" y="0" 
+          font-family="'Inter', 'Roboto', -apple-system, sans-serif" 
+          font-size="68" 
+          font-weight="900" 
+          font-style="italic" 
+          letter-spacing="-0.5" 
+          fill="url(#blueGrad)">SMS</text>
+
+    <!-- Sleek Tech Underline Accent below SMS -->
+    <path d="M 188,14 L 330,14" stroke="url(#swooshGrad)" stroke-width="4.5" stroke-linecap="round"/>
+  </g>
+</svg>

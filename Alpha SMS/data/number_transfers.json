@@ -1,0 +1,200 @@
+[
+  {
+    "id": 9,
+    "from_user_id": null,
+    "from_username": "Owner",
+    "from_role": "Owner",
+    "to_user_id": 1,
+    "to_username": "TestClient",
+    "to_role": "Client",
+    "count": 1,
+    "number_ids": [
+      6686
+    ],
+    "service": "Unassigned",
+    "notes": "",
+    "timestamp": "2026-10-09T14:22:54.735Z",
+    "status": "completed"
+  },
+  {
+    "id": 8,
+    "from_user_id": null,
+    "from_username": "Manager",
+    "from_role": "Manager",
+    "to_user_id": 1,
+    "to_username": "AlphaAgent",
+    "to_role": "Agent",
+    "count": 10,
+    "number_ids": [
+      6720,
+      6721,
+      6722,
+      6723,
+      6724,
+      6725,
+      6726,
+      6727,
+      6728,
+      6729
+    ],
+    "batch_filename": "Batch_Agent_AlphaAgent_Peru_KB1_1791103945976.txt",
+    "notes": "Fulfillment of Agent Request #5 (Peru_KB1)",
+    "timestamp": "2026-10-04T08:52:25.977Z",
+    "status": "completed"
+  },
+  {
+    "id": 7,
+    "from_user_id": null,
+    "from_username": "Manager",
+    "from_role": "Manager",
+    "to_user_id": 1,
+    "to_username": "AlphaAgent",
+    "to_role": "Agent",
+    "count": 5,
+    "number_ids": [
+      6715,
+      6716,
+      6717,
+      6718,
+      6719
+    ],
+    "batch_filename": "Batch_Agent_AlphaAgent_Peru_KB1_1791103931285.txt",
+    "notes": "Fulfillment of Agent Request #4 (Peru_KB1)",
+    "timestamp": "2026-10-04T08:52:11.286Z",
+    "status": "completed"
+  },
+  {
+    "id": 6,
+    "from_user_id": null,
+    "from_username": "Manager",
+    "from_role": "Manager",
+    "to_user_id": 1,
+    "to_username": "agent1",
+    "to_role": "Agent",
+    "count": 5,
+    "number_ids": [
+      6682,
+      6711,
+      6712,
+      6713,
+      6714
+    ],
+    "batch_filename": "Batch_Agent_agent1_Peru_KB1_1790945761094.txt",
+    "notes": "Fulfillment of Agent Request #3 (Peru_KB1)",
+    "timestamp": "2026-10-02T12:56:01.095Z",
+    "status": "completed"
+  },
+  {
+    "id": 5,
+    "from_user_id": null,
+    "from_username": "Owner",
+    "from_role": "Owner",
+    "to_user_id": 1,
+    "to_username": "TestClient",
+    "to_role": "Client",
+    "count": 1,
+    "number_ids": [
+      6682
+    ],
+    "service": "Unassigned",
+    "notes": "",
+    "timestamp": "2026-10-02T12:13:54.493Z",
+    "status": "completed"
+  },
+  {
+    "id": 4,
+    "from_user_id": null,
+    "from_username": "Manager",
+    "from_role": "Manager",
+    "to_user_id": 1,
+    "to_username": "Agent_Alpha",
+    "to_role": "Agent",
+    "count": 5,
+    "number_ids": [
+      6682,
+      6707,
+      6708,
+      6709,
+      6710
+    ],
+    "batch_filename": "Batch_Agent_Agent_Alpha_UK_Mobile_447_1790943224779.txt",
+    "notes": "Fulfillment of Agent Request #2 (UK Mobile 447)",
+    "timestamp": "2026-10-02T12:13:44.780Z",
+    "status": "completed"
+  },
+  {
+    "id": 3,
+    "from_user_id": null,
+    "from_username": "Owner",
+    "from_role": "Owner",
+    "to_user_id": 1,
+    "to_username": "TestClient",
+    "to_role": "Client",
+    "count": 2,
+    "number_ids": [
+      6682,
+      6683
+    ],
+    "notes": "",
+    "timestamp": "2026-10-02T12:02:59.721Z",
+    "status": "completed"
+  },
+  {
+    "id": 2,
+    "from_user_id": null,
+    "from_username": "Manager",
+    "from_role": "Manager",
+    "to_user_id": 1,
+    "to_username": "AlphaAgent",
+    "to_role": "Agent",
+    "count": 25,
+    "number_ids": [
+      6682,
+      6683,
+      6684,
+      6685,
+      6686,
+      6687,
+      6688,
+      6689,
+      6690,
+      6691,
+      6692,
+      6693,
+      6694,
+      6695,
+      6696,
+      6697,
+      6698,
+      6699,
+      6700,
+      6701,
+      6702,
+      6703,
+      6704,
+      6705,
+      6706
+    ],
+    "batch_filename": "Batch_Agent_AlphaAgent_US_Direct_1790942544635.txt",
+    "notes": "Fulfillment of Agent Request #1 (US Direct)",
+    "timestamp": "2026-10-02T12:02:24.636Z",
+    "status": "completed"
+  },
+  {
+    "id": 1,
+    "from_user_id": null,
+    "from_username": "Owner",
+    "from_role": "Owner",
+    "to_user_id": 3,
+    "to_username": "alpha",
+    "to_role": "Manager",
+    "count": 1,
+    "number_ids": [
+      6682
+    ],
+    "service": "Unassigned",
+    "notes": "test assign",
+    "timestamp": "2026-09-30T06:37:44.484Z",
+    "status": "completed"
+  }
+]

@@ -1,0 +1,15 @@
+[Unit]
+Description=ALPHA SMS Panel
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/ubuntu/Alpha SMS
+ExecStart=/usr/bin/python3 /home/ubuntu/Alpha SMS/main.py
+Restart=always
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

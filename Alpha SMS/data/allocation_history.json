@@ -1,0 +1,67 @@
+[
+  {
+    "id": 5,
+    "from_user": "Manager",
+    "to_user": "AlphaAgent",
+    "to_role": "Agent",
+    "range_id": 1,
+    "range_name": "Peru_KB1",
+    "count": 10,
+    "batch_filename": "Batch_Agent_AlphaAgent_Peru_KB1_1791103945976.txt",
+    "timestamp": "2026-10-04T08:52:25.982Z",
+    "status": "completed",
+    "notes": "Request #5 fulfilled"
+  },
+  {
+    "id": 4,
+    "from_user": "Manager",
+    "to_user": "AlphaAgent",
+    "to_role": "Agent",
+    "range_id": 1,
+    "range_name": "Peru_KB1",
+    "count": 5,
+    "batch_filename": "Batch_Agent_AlphaAgent_Peru_KB1_1791103931285.txt",
+    "timestamp": "2026-10-04T08:52:11.286Z",
+    "status": "completed",
+    "notes": "Request #4 fulfilled"
+  },
+  {
+    "id": 3,
+    "from_user": "Manager",
+    "to_user": "agent1",
+    "to_role": "Agent",
+    "range_id": 1,
+    "range_name": "Peru_KB1",
+    "count": 5,
+    "batch_filename": "Batch_Agent_agent1_Peru_KB1_1790945761094.txt",
+    "timestamp": "2026-10-02T12:56:01.095Z",
+    "status": "completed",
+    "notes": "Request #3 fulfilled"
+  },
+  {
+    "id": 2,
+    "from_user": "Manager",
+    "to_user": "Agent_Alpha",
+    "to_role": "Agent",
+    "range_id": null,
+    "range_name": "UK Mobile 447",
+    "count": 5,
+    "batch_filename": "Batch_Agent_Agent_Alpha_UK_Mobile_447_1790943224779.txt",
+    "timestamp": "2026-10-02T12:13:44.780Z",
+    "status": "completed",
+    "notes": "Request #2 fulfilled"
+  },
+  {
+    "id": 1,
+    "from_user": "Manager",
+    "to_user": "AlphaAgent",
+    "to_role": "Agent",
+    "range_id": null,
+    "range_name": "US Direct",
+    "count": 25,
+    "batch_filename": "Batch_Agent_AlphaAgent_US_Direct_1790942544635.txt",
+    "timestamp": "2026-10-02T12:02:24.636Z",
+    "status": "completed",
+    "notes": "Request #1 fulfilled"
+  }
+]

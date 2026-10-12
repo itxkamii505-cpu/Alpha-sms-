@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "username": "TestClient",
+    "password": "$2b$10$KIYs5lWWExfl3G/0v9y7YOvp9QX1k8MZ.0oMLkNYqmiEtomUr8N16",
+    "role": "Client",
+    "status": "active",
+    "agent_id": 1,
+    "created": "2026-10-02T12:02:51.556Z",
+    "manager_id": 3
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "username": "Agent_Alpha",
+    "password": "agent123",
+    "role": "Agent",
+    "full_name": "Alpha Agent",
+    "email": "agent@alphasms.com",
+    "phone": "+1234567890",
+    "commission_rate": 5,
+    "manager_id": 3,
+    "status": "active",
+    "created": "2026-10-04T12:00:00.000Z"
+  }
+]

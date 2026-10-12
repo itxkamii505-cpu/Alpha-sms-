@@ -1,0 +1,29 @@
+[
+  {
+    "id": 3,
+    "username": "alpha",
+    "role": "Manager",
+    "email": "",
+    "password": "$2b$10$r4bTaopHhKo3AKli1De3HulBaHIRpFnxy9AXarHDYewFWaogGgOhi",
+    "phone": "",
+    "status": "active",
+    "balance": 0,
+    "created": "2026-09-30T06:17:13.823Z"
+  },
+  {
+    "id": 1,
+    "username": "Kamran_Bhatti",
+    "password": "$2b$10$TMUHmHQH2xkSiQo0TR9oTOSbnuPXAUrJF77A9uU7JzWqfkjoFgiVa",
+    "role": "Owner",
+    "email": "kamran@alphasms.com",
+    "balance": 0,
+    "status": "active",
+    "numbers": 0,
+    "created": "2026-08-19T03:08:57.860886",
+    "last_login": null,
+    "company": null,
+    "phone": "",
+    "two_fa": false,
+    "notes": "System Owner"
+  }
+]
